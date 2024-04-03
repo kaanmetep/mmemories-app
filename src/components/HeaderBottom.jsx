@@ -17,7 +17,7 @@ function HeaderBottom({ handleSignInClicked, handleSignupClicked }) {
               Sign up
             </Button>
           </div>
-          <div className="flex gap-3 text-xs items-center">
+          <div className="flex gap-3 text-xs items-center justify-center">
             <h2>Dou you already have an account?</h2>
             <Button onClick={handleSignInClicked} className="px-2 py-1 text-xs">
               Sign in
