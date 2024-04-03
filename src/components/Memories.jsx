@@ -7,6 +7,7 @@ const tempData = [
     author: "Kaan",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
     verifiedUser: true,
+    createdAt: "3/04/2024 - 14:23",
   },
   {
     id: 1,
@@ -15,6 +16,7 @@ const tempData = [
     author: "Ahmet",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
     verifiedUser: true,
+    createdAt: "3/04/2024 - 16:42",
   },
   {
     id: 2,
@@ -23,14 +25,16 @@ const tempData = [
     author: "Ali",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
     verifiedUser: false,
+    createdAt: "3/04/2024 - 15:34",
   },
   {
     id: 3,
-    topic: "Food in Chine.",
+    topic: "Food in China.",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam distinctio nobis error sequi cum cumque perferendis, corrupti itaque qui magni?",
     author: "Ayse",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/30.jpg",
     verifiedUser: false,
+    createdAt: "3/04/2024 - 17:02",
   },
 ];
 function Memories() {
