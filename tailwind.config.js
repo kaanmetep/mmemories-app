@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       sans: "Playfair Display SC,monospace",
+      monospace: "monospace",
     },
   },
   plugins: [],

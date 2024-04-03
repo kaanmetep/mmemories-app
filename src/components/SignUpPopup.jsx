@@ -6,14 +6,14 @@ function SignUpPopup({ onSignupClicked }) {
     >
       <div className="bg-red-100 w-[500px] h-[400px] p-8 rounded-md shadow-lg bg-opacity-20 relative">
         <button
-          className="absolute right-[-6px] top-[-6px] text-xs bg-red-100 w-5 h-5 rounded-full"
+          className="absolute right-[-6px] top-[-6px] text-xs bg-red-100 w-5 h-5 rounded-full hover:bg-red-200 transition-all delay-50"
           onClick={onSignupClicked}
         >
           X
         </button>
         <h2 className="mb-6 text-3xl">Sign Up</h2>
-        <form className="flex flex-col gap-3">
-          <div className="grid grid-cols-[130px_1fr]">
+        <form className="flex flex-col gap-3 font-monospace">
+          <div className="grid grid-cols-[155px_1fr]">
             <label htmlFor="firstname">First Name:</label>
             <input
               type="text"
@@ -21,7 +21,7 @@ function SignUpPopup({ onSignupClicked }) {
               placeholder="Enter your first name."
             />
           </div>
-          <div className="grid grid-cols-[130px_1fr]">
+          <div className="grid grid-cols-[155px_1fr]">
             <label htmlFor="firstname">Last Name:</label>
             <input
               type="text"
@@ -29,15 +29,7 @@ function SignUpPopup({ onSignupClicked }) {
               placeholder="Enter your last name."
             />
           </div>
-          <div className="grid grid-cols-[130px_1fr]">
-            <label htmlFor="firstname">User Name:</label>
-            <input
-              type="text"
-              className="rounded-md text-sm pl-3 placeholder:text-xs"
-              placeholder="Enter your user name."
-            />
-          </div>
-          <div className="grid grid-cols-[130px_1fr]">
+          <div className="grid grid-cols-[155px_1fr]">
             <label htmlFor="firstname">Email:</label>
             <input
               type="text"
@@ -45,7 +37,25 @@ function SignUpPopup({ onSignupClicked }) {
               placeholder="Enter your email address."
             />
           </div>
-          <div className="grid grid-cols-[130px_1fr]">
+          <div className="grid grid-cols-[155px_1fr]">
+            <label htmlFor="firstname">Password:</label>
+            <input
+              type="password"
+              className="rounded-md text-sm pl-3 placeholder:text-xs"
+              placeholder="Enter your password."
+            />
+          </div>
+          <div className="grid grid-cols-[155px_1fr]">
+            <label htmlFor="firstname" className="text-sm">
+              Re-enter Password:
+            </label>
+            <input
+              type="password"
+              className="rounded-md text-sm pl-3 placeholder:text-xs"
+              placeholder="Re-enter your password."
+            />
+          </div>
+          <div className="grid grid-cols-[155px_1fr]">
             <label htmlFor="firstname">Date of Birth:</label>
             <input type="date" className="rounded-md text-sm pl-3 " />
           </div>
