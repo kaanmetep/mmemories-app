@@ -15,7 +15,7 @@ function Home() {
   };
   return (
     <>
-      <div className="border-solid border-b-2 pb-6 border-red-100 mb-8">
+      <div>
         <Header />
         <HeaderBottom
           handleSignInClicked={handleSignInClicked}

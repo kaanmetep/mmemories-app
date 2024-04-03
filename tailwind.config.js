@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      sans: "Playfair Display SC,monospace",
-      monospace: "monospace",
+      sans: "monospace",
+      playfairdisplay: "Playfair Display SC",
     },
   },
   plugins: [],

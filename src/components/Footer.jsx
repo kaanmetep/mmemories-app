@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="bg-red-100 mt-4 flex  justify-center items-center gap-4 p-2 text-sm">
+    <div className="bg-red-100 mt-4 flex  justify-center items-center gap-4 p-2 text-sm font-playfairdisplay">
       <p>Made with love.</p>
       <svg
         xmlns="http://www.w3.org/2000/svg"

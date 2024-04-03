@@ -6,7 +6,7 @@ const tempData = [
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa facilis suscipit quaerat animi quibusdam repellat numquam ducimus nihil laudantium quod?",
     author: "Kaan",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-    verifiedUser: true,
+    userType: "admin",
     createdAt: "3/04/2024 - 14:23",
   },
   {
@@ -15,7 +15,7 @@ const tempData = [
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur itaque rem dolorem vero molestiae officia quos aperiam adipisci! Doloribus voluptatum eius quam atque. Velit doloremque rerum, maxime ea nisi unde.",
     author: "Ahmet",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
-    verifiedUser: true,
+    userType: "verified",
     createdAt: "3/04/2024 - 16:42",
   },
   {
@@ -24,7 +24,7 @@ const tempData = [
     text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, rem quia, excepturi consequatur vitae temporibus praesentium eveniet cumque eaque eos itaque quo dicta, eum fugit earum sint. Velit cupiditate, hic quos commodi officia omnis nostrum expedita doloremque ipsam perferendis asperiores, placeat aperiam non nulla voluptatum atque deserunt at nemo totam assumenda? Voluptatibus ab laboriosam commodi nam. Voluptatibus explicabo adipisci reprehenderit provident quod sequi distinctio aliquam asperiores qui. Molestias eum vero nihil cupiditate voluptates architecto consequatur, dolorem doloribus placeat, aperiam saepe perferendis fugiat quae quasi, modi blanditiis? Alias sed ducimus est labore mollitia obcaecati sint veritatis officia, velit, deserunt fuga iure.",
     author: "Ali",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-    verifiedUser: false,
+    userType: "unverified",
     createdAt: "3/04/2024 - 15:34",
   },
   {
@@ -33,7 +33,7 @@ const tempData = [
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam distinctio nobis error sequi cum cumque perferendis, corrupti itaque qui magni?",
     author: "Ayse",
     imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/30.jpg",
-    verifiedUser: false,
+    userType: "unverified",
     createdAt: "3/04/2024 - 17:02",
   },
 ];
