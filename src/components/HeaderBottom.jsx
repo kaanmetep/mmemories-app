@@ -25,7 +25,7 @@ function HeaderBottom({ handleSignInClicked, handleSignupClicked }) {
           </div>
         </div>
       ) : (
-        <div className="mt-4 px-12">
+        <div className="mt-4">
           <User />
         </div>
       )}

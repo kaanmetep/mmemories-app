@@ -1,17 +1,17 @@
 function User() {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between text-xs lg:text-base">
       <div>
         <h2 className="text-xl font-semibold">Welcome $NAME$!</h2>
       </div>
       <div className="flex flex-col gap-2">
         <p>You have shared $NUMBER$ memories by now!</p>
         <p>You have $NUMBER$ likes in total!</p>
-        <button className="bg-red-50 rounded-md py-1 px-6">
+        <button className="bg-red-50 rounded-md py-1 px-6 text-xs">
           See all memories you have shared.
         </button>
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-4 ">
         <div className="flex flex-col items-center">
           <p>Profile</p>
           <svg
@@ -30,7 +30,7 @@ function User() {
           </svg>
         </div>
         <div className="flex flex-col items-center">
-          <p>Share a memory</p>
+          <p className="text-center">Share a memory</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

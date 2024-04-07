@@ -22,10 +22,16 @@ function Home() {
           handleSignupClicked={handleSignupClicked}
         />
         {isSignupClicked && (
-          <SignUpPopup onSignupClicked={handleSignupClicked} />
+          <SignUpPopup
+            onSignupClicked={handleSignupClicked}
+            isSignupClicked={isSignupClicked}
+          />
         )}
         {isSignInClicked && (
-          <SignInPopup onSignInClicked={handleSignInClicked} />
+          <SignInPopup
+            onSignInClicked={handleSignInClicked}
+            isSignInClicked={isSignInClicked}
+          />
         )}
       </div>
       <Content />
